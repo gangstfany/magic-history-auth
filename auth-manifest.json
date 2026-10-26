@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "repository": "gangstfany/magic-history-auth",
+  "source": {
+    "repository": "https://github.com/gangstfany/magic-history",
+    "commit": "cd4401845ad5e688a0b33d930c61b8f3bcabb432"
+  },
+  "consumerFiles": [
+    "assets/auth/account-bootstrap.mjs",
+    "assets/auth/account-ui.mjs",
+    "assets/auth/account.css",
+    "assets/auth/auth-config.mjs",
+    "assets/auth/auth-service.mjs",
+    "assets/vendor/README.md",
+    "assets/vendor/SUPABASE-LICENSE",
+    "assets/vendor/supabase-js-2.118.0.js",
+    "auth-callback.html"
+  ],
+  "entry": "assets/auth/account-bootstrap.mjs",
+  "stylesheet": "assets/auth/account.css",
+  "callback": "auth-callback.html"
+}
